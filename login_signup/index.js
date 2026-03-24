@@ -3,7 +3,7 @@ const loginButton = document.getElementById("loginButton");
        loginButton.addEventListener("click", () => {
         const email = document.getElementById("email").value.trim();
         const password = document.getElementById("password").value.trim();
-        if (email && password != "") {
+        if (email !== "" && password !== "") {
                 window.location.href = "/1st-no-ai-stylehub/main_page.html";
         } else {
             alert("Please enter your email and password");
