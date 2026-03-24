@@ -4,7 +4,7 @@ const loginButton = document.getElementById("loginButton");
         const email = document.getElementById("email").value.trim();
         const password = document.getElementById("password").value.trim();
         if (email && password != "") {
-                window.location.href = "newjs/main_page.html";
+                window.location.href = "../main_page.html";
         } else {
             alert("Please enter your email and password");
         }
@@ -22,7 +22,7 @@ const loginButton = document.getElementById("loginButton");
 
         if  (email !== "" && password !== "" && username !== "") {
             alert("Hey now you have an account");
-            window.location.href = "newjs/main_page.html";
+            window.location.href = "../main_page.html";
         } else {
             alert("Please enter your email and password and username");
         }
